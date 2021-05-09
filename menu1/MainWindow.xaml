@@ -1,0 +1,20 @@
+﻿<Window x:Class="menu1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:menu1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Menu" HorizontalAlignment="Left" Margin="28,10,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="lboListaCibo" HorizontalAlignment="Left" Height="134" Margin="243,173,0,0" VerticalAlignment="Top" Width="291"/>
+        <Button x:Name="btnAggiungi" Content="Aggiungi" HorizontalAlignment="Left" Margin="100,229,0,0" VerticalAlignment="Top" Width="75" Click="btnAggiungi_Click"/>
+        <Button x:Name="btnRimuovi" Content="Rimuovi" HorizontalAlignment="Left" Margin="607,229,0,0" VerticalAlignment="Top" Width="75" Click="btnRimuovi_Click"/>
+        <ComboBox x:Name="cboSecondo" HorizontalAlignment="Left" Margin="414,108,0,0" VerticalAlignment="Top" Width="120" Loaded="cboSecondo_Loaded"/>
+        <ComboBox x:Name="cboDolce" HorizontalAlignment="Left" Margin="607,108,0,0" VerticalAlignment="Top" Width="120" Loaded="cboDolce_Loaded"/>
+        <ComboBox x:Name="cboAntipasto" HorizontalAlignment="Left" Margin="55,108,0,0" VerticalAlignment="Top" Width="120" Loaded="cboAntipasto_Loaded"/>
+        <ComboBox x:Name="cboPrimo" HorizontalAlignment="Left" Margin="243,108,0,0" VerticalAlignment="Top" Width="120" Loaded="cboPrimo_Loaded"/>
+
+    </Grid>
+</Window>
