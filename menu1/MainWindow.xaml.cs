@@ -50,17 +50,17 @@ namespace menu1
             while ((line1 = r1.ReadLine()) != null)
             {
 
-                listaPrimo.Add(line);
+                listaPrimo.Add(line1);
             }
             while ((line2 = r2.ReadLine()) != null)
             {
 
-                listaSecondo.Add(line);
+                listaSecondo.Add(line2);
             }
             while ((line3 = r3.ReadLine()) != null)
             {
 
-                listaDolce.Add(line);
+                listaDolce.Add(line3);
             }
         }
         private void cboAntipasto_Loaded(object sender, RoutedEventArgs e)
